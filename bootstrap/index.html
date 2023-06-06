@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>iCoder-Heaven for Programmers</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">iCoder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Technology</a>
+                        <a class="dropdown-item" href="#">Web Development</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Support</a>
+                        <a class="dropdown-item" href="#">Write for us </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Conatact Us</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal">login</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">Sign Up </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Button trigger modal -->
+
+
+    <!-- login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">login to iCoder</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- form -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+
+    <!-- SignUp Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Get an iCoder Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!--form for singup model -->
+                    <form>
+
+                        <div class="form-group">
+                            <label for="exampleInputName">Name</label>
+                            <input type="Name" class="form-control" id="exampleInputName1"
+                                placeholder="Name">
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+
+                         
+                                <div class="form-group">
+                                    <label for="exampleInputcPassword1">Conform Password</label>
+                                    <input type="password" class="form-control" id="exampleInputcPassword1"
+                                        placeholder="Password">
+                                </div>
+
+
+
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Creat Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100"
+                    src="https://media.istockphoto.com/id/1249276310/photo/brand-new-gold-macbook-air-on-a-wooden-table.jpg?s=612x612&w=0&k=20&c=k0tFP1cWJZ9J6ojxN58pj7RkaHu6MxF8qZr2_iAetqE="
+                    alt="First slide" height="500" width="100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to iCoder</h2>
+                    <p>Technology News,Development and Trends </p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-primary">Web Development</button>
+                    <button class="btn btn-success"> Tech Fun</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnaPhfNvFIA4ajqIUxqzdPA-qABg1PE26oyw&usqp=CAU"
+                    alt="Second slide" height="500" width="100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Award Winning Blog </h2>
+                    <p>Technology News,Development and Trends </p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-primary">Web Development</button>
+                    <button class="btn btn-success"> Tech Fun</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://t4.ftcdn.net/jpg/05/79/56/07/240_F_579560799_EQrJZP3IV2T8wXHrskBDQlXnWkTWUXCI.jpg"
+                    alt="Third slide" height="500" widht="100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Rank 3 by Microsoft </h2>
+                    <p>Technology News,Development and Trends </p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-primary">Web Development</button>
+                    <button class="btn btn-success"> Tech Fun</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container my-4">
+        <div class="row mb-2">
+            <!-- 1st card-->
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h3 class="mb-0">Coding Conference</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://media.istockphoto.com/id/915024752/photo/mountain-valley-during-bright-sunset-beautiful-natural-landscape-in-the-summer-time.jpg?s=612x612&w=0&k=20&c=NvxubOFwOz9WpOybyjAU8rJy4_CBeKvlgIk06D04P4Q="
+                            alt=" mountain img">
+
+                    </div>
+                </div>
+            </div>
+            <!--2nd card-->
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Design</strong>
+                        <h3 class="mb-0">Learn Designing</h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://st4.depositphotos.com/12536728/37902/i/450/depositphotos_379023632-stock-photo-image-male-creative-graphic-designer.jpg"
+                            alt=" design.img">
+
+                    </div>
+                </div>
+            </div>
+            <!--3rd card-->
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-warning">Marketing Course</strong>
+                        <h3 class="mb-0">Digital Marketing </h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://img.freepik.com/free-vector/startup-isometric-concept_1284-10902.jpg"
+                            alt=" design.img">
+
+                    </div>
+                </div>
+            </div>
+           <!--4th card-->
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-danger">Internet Surffing</strong>
+                        <h3 class="mb-0">IoT Security</h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://www.softwebsolutions.com/wp-content/uploads/2019/08/IoT-based-Asset-solutions-1.jpg"
+                            alt=" design.img">
+
+                    </div>
+                </div>
+            </div>  
+           
+
+
+
+
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
